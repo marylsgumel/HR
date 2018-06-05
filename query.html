@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" >
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="./bootstrap/js/bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="payroll.css">
+</head>
+<body>
+	<nav class="navbar">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+				<a class="navbar-brand" href="#">PrimeHR</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><span class="glyphicon glyphicon-home"></span> Home </a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-user"></span> Employee <span class="caret"></span></a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+<div class="container" style="padding-bottom: 11px">
+  <center>
+  	<h2 id="m" style="color: purple">QUERY</h2>
+  	<p><b> Enter details</b></p>
+  </center>
+  <form class="form-horizontal" role="form" style="padding-left: 450px">
+    <div class="form-group">
+      <div class="col-sm-10 col-lg-4">
+        <b>ID:</b>
+        <input type="text" class="form-control" id="ID" placeholder="Enter ID">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-10 col-lg-4">
+      	<b>Query Details:</b>
+       <textarea class="form-control" rows="2" id="comment"></textarea>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-10 col-lg-4">
+      	<b>Query effect:</b>
+        <textarea class="form-control" rows="2" id="comment"></textarea>
+      </div>
+    </div>
+     <div class="form-group">
+      <div class="col-sm-10 col-lg-4">  Date of Query:<input type="Date" class="form-control" id="dob">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-10 col-lg-4">
+        <b>Query count:</b>
+       <textarea class="form-control" rows="2" id="comment"></textarea>
+      </div>
+    </div>
+    <div class="form-group-">        
+      <div class="col-sm-offset-2 col-sm-10 col-lg-4">
+        <button type="submit" class="btn btn-default"><b>Save</b></button>
+      </div>
+    </div>
+  </form>
+</div>
+<div class="footer"> <br><b>copyright &copy PrimeHR</b></div>
+</body>
+</html>

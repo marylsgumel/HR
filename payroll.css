@@ -1,0 +1,36 @@
+#myNavbar li a{
+			color: white;
+		}
+.container{
+	background-color: 
+	aliceblue; 
+	padding-bottom: 105PX;
+}		
+.footer{
+	border: 1px solid white;
+    border-bottom: 0px;
+	border-left: 0px;
+	border-right: 0px; 
+	background-color: purple;
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+}
+.form-group select{
+	border-radius: 5px;
+}
+.btn{ 
+	color: purple; 
+}
+
+.navbar{
+	background-color: purple;
+	 }
+
+.navbar-brand{ 
+	color: white; 
+}
+.m{
+	color: purple;
+	 padding-top: 80px;
+}
